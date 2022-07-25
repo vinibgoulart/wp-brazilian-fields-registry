@@ -29,8 +29,10 @@ With this, is possible make other customizations such different price tables for
 
 ## Demo
 
-<img src="https://imgur.com/a/rnsQf5t" alt="demo image"/>
-<img src="https://imgur.com/a/3G5qPFm" alt="demo image"/>
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/rnsQf5t" data-context="false" ><a href="//imgur.com/a/3G5qPFm"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/rnsQf5t" data-context="false" ><a href="//imgur.com/a/rnsQf5t"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
