@@ -28,6 +28,17 @@ With this, is possible make other customizations such different price tables for
 - Is saved like "billing_{field_name}~. Ex: "billing_cpf" or "billing_cnpj"
 
 
+## Installation
+
+1- Donwload ZIP project
+
+2- Go to plugins page in WordPress Admin
+
+3- Go to **Add New -> Upload Plugin**
+
+4- Chose the ZIP plugin file that you download
+
+
 ## Demo
 
 
