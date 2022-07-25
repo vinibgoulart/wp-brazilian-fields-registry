@@ -25,7 +25,7 @@ With this, is possible make other customizations such different price tables for
 - Can be used with "Brazilian Market on WooCommerce" plugin;
 - API usage support;
 - Data are saved in **wp_usermeta** table;
-- Was saved "billing_{field_name}" like "billing_cpf" or "billing_cnpj"
+- Is saved like "billing_{field_name}~. Ex: "billing_cpf" or "billing_cnpj"
 
 
 ## Demo
