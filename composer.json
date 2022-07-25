@@ -1,0 +1,18 @@
+{
+	"require": {
+		"php": "^7.4",
+		"luizbills/v": "^1.0"
+	},
+	"require-dev": {
+		"filp/whoops": "^2.5",
+		"symfony/var-dumper": "^4.3"
+	},
+	"autoload": {
+		"psr-4": {
+			"WPBrazilianRegistry\\": [
+				"core/classes/",
+				"classes/"
+			]
+		}
+	}
+}
