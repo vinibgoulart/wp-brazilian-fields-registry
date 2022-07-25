@@ -41,9 +41,8 @@ With this, is possible make other customizations such different price tables for
 
 ## Demo
 
-
-![Screenshot 2022-07-25 151611](https://user-images.githubusercontent.com/88122830/180850839-8ba23329-387e-40ee-90a5-3c09a82a381d.png)
-![Screenshot 2022-07-25 151956](https://user-images.githubusercontent.com/88122830/180850849-77ee49d2-726d-41a9-b096-1fed6efd2fff.png)
+![chrome_ezLSzHOZJK](https://user-images.githubusercontent.com/88122830/180866081-015c554a-73bf-4db8-a969-bc5e86660c30.png)
+![chrome_fMyJhcxTJX](https://user-images.githubusercontent.com/88122830/180866086-5f5ddbd0-ad49-499b-9e4d-404b09337fdc.png)
 
 
 ## License
