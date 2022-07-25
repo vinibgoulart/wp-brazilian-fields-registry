@@ -27,6 +27,13 @@ final class Plugin_Dependencies {
 			}
 		};
 
+		$deps['mask'] = function () {
+			if ( !in_array( 'masks-form-fields/masks-form-fields.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
+				$message = "Instale ou ative o plugin Mask for Fields para utilizar esse plugin corretamente";
+				return \v( $message, 'safe_html', 'raw' );
+			}
+		};
+
 		// $deps['woocommerce'] = function () {
 		// 	if ( ! function_exists( 'WC' ) ) {
 		// 		$message = \sprintf(
