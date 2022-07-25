@@ -27,19 +27,10 @@ With this, is possible make other customizations such different price tables for
 - Data are saved in **wp_usermeta** table;
 
 
-## Contributing
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
-
-
 ## Demo
 
-![demo image](https://imgur.com/a/rnsQf5t)
-![demo image](https://imgur.com/a/3G5qPFm)
+<img src="https://imgur.com/a/rnsQf5t" alt="demo image"/>
+<img src="https://imgur.com/a/3G5qPFm" alt="demo image"/>
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
