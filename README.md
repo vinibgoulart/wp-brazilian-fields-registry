@@ -22,7 +22,7 @@ With this, is possible make other customizations such different price tables for
 
 - First name, Last name, CPF or CNPJ and Phone fields;
 - Select persontype ("Pessoa Física" or "Pessoa Jurídica");
-- Can be used with "Brazilian Market on WooCommerce" plugin;
+- Can be used with **"Brazilian Market on WooCommerce"** plugin;
 - API usage support;
 - Data are saved in **wp_usermeta** table;
 - Is saved like "billing_{field_name}~. Ex: "billing_cpf" or "billing_cnpj"
