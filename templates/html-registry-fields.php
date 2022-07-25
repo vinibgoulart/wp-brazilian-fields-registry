@@ -57,10 +57,13 @@
 		if (this.value === 'F') {
 			$(".field-pessoa-fisica").css("display", "block")
 			$(".field-pessoa-juridica").css("display", "none")
+			$("#reg_billing_cnpj").val('')
+			$("#reg_billing_ie").val('')
 		}
 		if (this.value === 'J') {
 			$(".field-pessoa-fisica").css("display", "none")
 			$(".field-pessoa-juridica").css("display", "block")
+			$("#reg_billing_cpf").val('')
 		}
 	})
 </script>
