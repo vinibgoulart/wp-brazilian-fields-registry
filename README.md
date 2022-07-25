@@ -5,7 +5,7 @@ A wordpress plugin that can be used for customize your website.
 
 Brazilian fields are added to the wordpress registry, such as persontype and CPF/CNPJ.
 
-With this, is possible make other customizations such different price tables for clicustomers or use this data to integration with some API.
+With this, is possible make other customizations such different price tables for customers or use this data to integration with some API.
 ### Informations:
 
 - **Contributors**: [@ViniBGoulart](https://github.com/ViniBGoulart)
