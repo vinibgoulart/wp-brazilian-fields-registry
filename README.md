@@ -29,8 +29,9 @@ With this, is possible make other customizations such different price tables for
 
 ## Demo
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/rnsQf5t" data-context="false" ><a href="//imgur.com/a/3G5qPFm"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/rnsQf5t" data-context="false" ><a href="//imgur.com/a/rnsQf5t"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
+![Screenshot 2022-07-25 151611](https://user-images.githubusercontent.com/88122830/180850839-8ba23329-387e-40ee-90a5-3c09a82a381d.png)
+![Screenshot 2022-07-25 151956](https://user-images.githubusercontent.com/88122830/180850849-77ee49d2-726d-41a9-b096-1fed6efd2fff.png)
 
 
 ## License
