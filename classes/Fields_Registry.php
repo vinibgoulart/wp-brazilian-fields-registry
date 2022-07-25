@@ -28,6 +28,7 @@ class Fields_Registry
 			 * Save Fields
 			 *
 			 */
+			add_action('woocommerce_created_customer', array($this, 'save_fields'));
 		});
 	}
 
@@ -39,5 +40,10 @@ class Fields_Registry
 	function validate_fields($username, $user_email, $errors)
 	{
 		h\validate_fields($_POST, $errors);
+	}
+
+	function save_fields($customer_id)
+	{
+		h\save_fields($_POST, $customer_id);
 	}
 }
