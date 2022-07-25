@@ -9,20 +9,20 @@ class Fields_Registry
 {
 	use Hooker_Trait;
 
-	public function __pre_boot ()
+	public function __pre_boot()
 	{
-		add_action( 'plugins_loaded', function() {
+		add_action('plugins_loaded', function () {
 			/**
 			 * Add fields
 			 *
 			 */
-			add_action( 'woocommerce_register_form_start', array($this, 'registry_fields'));
+			add_action('woocommerce_register_form_start', array($this, 'registry_fields'));
 
 			/**
 			 * Validate Fields
 			 *
 			 */
-			add_action( 'woocommerce_register_post', array($this, 'validate_fields'), 10, 3);
+			add_action('woocommerce_register_post', array($this, 'validate_fields'), 10, 3);
 
 			/**
 			 * Save Fields
@@ -33,7 +33,7 @@ class Fields_Registry
 
 	function registry_fields()
 	{
-		h\include_php_template( 'html-registry-fields.php');
+		h\include_php_template('html-registry-fields.php');
 	}
 
 	function validate_fields($username, $user_email, $errors)
