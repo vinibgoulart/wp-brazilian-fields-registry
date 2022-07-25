@@ -30,6 +30,10 @@
 		<option value="J">Pessoa Jurídica</option>
 	</select>
 </p>
+<!--
+	TODO: remove mask form fields plugin dependency
+	class like "cpf" and "cnpj" create a mask in field
+-->
 <p class="form-row field-pessoa-fisica">
 	<label for="reg_billing_cpf"><?php _e('CPF', 'woocommerce'); ?><span class="required"> *</span></label>
 	<input type="text" class="input-text cpf" name="billing_cpf" id="reg_billing_cpf"
