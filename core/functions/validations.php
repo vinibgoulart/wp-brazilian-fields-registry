@@ -3,7 +3,6 @@
 namespace WPBrazilianRegistry\functions;
 
 use WPBrazilianRegistry\Brazilian_Fields_Formatting;
-use Extra_Checkout_Fields_For_Brazil_Formatting;
 
 function validate_fields($data, $errors)
 {
