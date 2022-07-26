@@ -41,8 +41,12 @@ With this, is possible make other customizations such different price tables for
 
 ## Demo
 
+#### Registry page
 ![chrome_ezLSzHOZJK](https://user-images.githubusercontent.com/88122830/180866081-015c554a-73bf-4db8-a969-bc5e86660c30.png)
 ![chrome_fMyJhcxTJX](https://user-images.githubusercontent.com/88122830/180866086-5f5ddbd0-ad49-499b-9e4d-404b09337fdc.png)
+
+#### Database fields
+![dbeaver_RQfiP8oFx9](https://user-images.githubusercontent.com/88122830/181012717-b2f592fb-98ab-49c2-951b-0f8d9f5b5f37.png)
 
 
 ## License
