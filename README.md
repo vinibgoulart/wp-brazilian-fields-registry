@@ -48,6 +48,9 @@ With this, is possible make other customizations such different price tables for
 #### Database fields
 ![dbeaver_RQfiP8oFx9](https://user-images.githubusercontent.com/88122830/181012717-b2f592fb-98ab-49c2-951b-0f8d9f5b5f37.png)
 
+#### Checkout page with "**Brazilian Market on WooCommerce**" plugin
+![chrome_MDrsEZoD8G](https://user-images.githubusercontent.com/88122830/181013052-6946ba79-efd8-48d9-83ae-1f942ca4d48b.png)
+
 
 ## License
 
