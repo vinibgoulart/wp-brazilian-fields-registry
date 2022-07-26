@@ -57,5 +57,5 @@ With this, is possible make other customizations such different price tables for
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://choosealicense.com/licenses/gpl-3.0/)
 
