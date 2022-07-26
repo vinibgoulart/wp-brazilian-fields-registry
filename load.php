@@ -11,6 +11,7 @@ namespace WPBrazilianRegistry;
 $classes_to_load = [
 	Plugin_Dependencies::class,
 	Fields_Registry::class,
-	Brazilian_Fields_Formatting::class
+	Formatting::class,
+	Validations::class
 ];
 

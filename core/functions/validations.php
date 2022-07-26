@@ -2,7 +2,8 @@
 
 namespace WPBrazilianRegistry\functions;
 
-use WPBrazilianRegistry\Brazilian_Fields_Formatting;
+use WPBrazilianRegistry\Formatting;
+use WPBrazilianRegistry\Validations;
 
 function validate_fields($data, $errors)
 {
@@ -17,12 +18,15 @@ function validate_fields($data, $errors)
 
 function validate_cpf($cpf, $errors)
 {
-	$cpf = preg_replace('/[^0-9]/', '', $cpf);
-
 	if ((isset($cpf) && empty($cpf)) || !isset($cpf)) {
 		$errors->add('billing_cpf_error', __('Insira um <strong>CPF</strong> válido', 'woocommerce'));
 	} else {
-		if (!Brazilian_Fields_Formatting::is_cpf($cpf)) {
+		if (Validations::exists_cpf($cpf)) {
+			$errors->add('billing_cpf_error', __('Ja existe uma conta cadastrada com esse <strong>CPF</strong>', 'woocommerce'));
+		}
+		$cpf = preg_replace('/[^0-9]/', '', $cpf);
+
+		if (!Formatting::is_cpf($cpf)) {
 			$errors->add('billing_cpf_error', __('Insira um <strong>CPF</strong> válido', 'woocommerce'));
 		}
 	}
@@ -32,12 +36,15 @@ function validate_cpf($cpf, $errors)
 
 function validate_cnpj($cnpj, $errors)
 {
-	$cnpj = preg_replace('/[^0-9]/', '', $cnpj);
-
 	if ((isset($cnpj) && empty($cnpj)) || !isset($cnpj)) {
 		$errors->add('billing_cnpj_error', __('Insira um <strong>CNPJ</strong> válido', 'woocommerce'));
 	} else {
-		if (!Brazilian_Fields_Formatting::is_cnpj($cnpj)) {
+		if (Validations::exists_cnpj($cnpj)) {
+			$errors->add('billing_cnpj_error', __('Ja existe uma conta cadastrada com esse <strong>CNPJ</strong>', 'woocommerce'));
+		}
+		$cnpj = preg_replace('/[^0-9]/', '', $cnpj);
+
+		if (!Formatting::is_cnpj($cnpj)) {
 			$errors->add('billing_cnpj_error', __('Insira um <strong>CNPJ</strong> válido', 'woocommerce'));
 		}
 	}

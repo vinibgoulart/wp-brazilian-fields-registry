@@ -9,11 +9,10 @@ namespace WPBrazilianRegistry;
 use WPBrazilianRegistry\Common\Hooker_Trait;
 
 /**
- * Brazilian_Fields_Formatting class.
+ * Formatting class.
  */
-class Brazilian_Fields_Formatting
+class Formatting
 {
-
 	use Hooker_Trait;
 
 	/**

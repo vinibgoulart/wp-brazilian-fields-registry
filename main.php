@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Brazilian Fields Registry WP
-Version: 1.0.1
+Version: 1.2.0
 Description: Adiciona os campos <strong>CPF/CNPJ</strong>(junto com tipo de pessoa), <strong>Telefone</strong>, <strong>Inscricao Estadual</strong> no cadastro de um usuário no WordPress. Utiliza os mesmos campos que o Brazilian Market on WooCommerce
 Author: Vinicius Blazius Goulart
 Author URI: https://github.com/ViniBGoulart
