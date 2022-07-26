@@ -1,0 +1,7 @@
+parameters:
+	level: 6
+	paths:
+		- src
+		- spec
+	ignoreErrors:
+		- '#Function (describe|it|expect|beforeAll) not found\.#'
