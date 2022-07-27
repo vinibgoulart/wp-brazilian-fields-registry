@@ -64,20 +64,6 @@ function build_tag_attributes ( $atts_array ) {
 	return \trim( $result );
 }
 
-function add_plugin_action_link ( $label, $url, $atts_array = [], $priority = 10 ) {
-	$label = \esc_html( $label );
-	$url = \esc_attr( $url );
-	$atts = build_tag_attributes( $atts_array );
-	$link = "<a href='$url' $atts>$label</a>";
-	\add_filter(
-		'plugin_action_links_' . \plugin_basename( config_get( 'MAIN_FILE' ) ),
-		function ( $actions ) use ( $link ) {
-			return \array_merge( [ $link ], $actions );
-		},
-		$priority
-	);
-}
-
 function ns ( $include ) {
 	return config_get( 'NAMESPACE_BASE' ) . $include;
 }

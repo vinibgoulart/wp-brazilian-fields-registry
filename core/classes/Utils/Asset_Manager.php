@@ -105,13 +105,13 @@ class Asset_Manager {
 				'$nonces' => h\get_ajax_nonces(),
 				'$logged_in' => \is_user_logged_in(),
 			];
-			echo "<!-- Script Data of $plugin_name plugin -->";
+			echo esc_html("<!-- Script Data of $plugin_name plugin -->");
 			\printf(
 				'<script>window.wp_script_data=window.wp_script_data||{};wp_script_data[\'%s\']=%s</script>',
 				\esc_js( h\str_slug( h\config_get( 'SLUG' ), '_' ) ),
 				h\safe_json_encode( array_merge( [], $this->script_data, $data ) )
 			);
-			echo "<!-- /Script Data of $plugin_name plugin -->";
+			echo  esc_html("<!-- /Script Data of $plugin_name plugin -->");
 		}
 	}
 

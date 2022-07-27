@@ -15,7 +15,16 @@ Brazilian fields are added to the wordpress registry, such as persontype and CPF
 
 With this, is possible make other customizations such different price tables for customers or use this data to integration with some API.
 
-== A brief Markdown Example ==
+= Compatibilidade =
+
+Tested up to 6.0.x do WooCommerce.
+
+= Credits =
+
+Was used the plugins:
+[jQuery Mask Plugin](https://github.com/igorescobar/jQuery-Mask-Plugin)
+
+== Demo ==
 
 [chrome_ezLSzHOZJK](https://user-images.githubusercontent.com/88122830/180866081-015c554a-73bf-4db8-a969-bc5e86660c30.png)
 [chrome_fMyJhcxTJX](https://user-images.githubusercontent.com/88122830/180866086-5f5ddbd0-ad49-499b-9e4d-404b09337fdc.png)

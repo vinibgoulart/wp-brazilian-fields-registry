@@ -20,7 +20,7 @@ final class Plugin_Dependencies {
 
 			if ( $php_required_version && ! $this->compare_version( $php_server_version, $php_required_version ) ) {
 				$message = \sprintf(
-					__( "Atualize a versão do PHP para %s ou mais recente.", 'wp-brazilian-fields-registry' ),
+					__( "Atualize a versão do PHP para %s ou mais recente.", 'brazilian-fields-registry' ),
 					$php_required_version
 				);
 				return \v( $message, 'safe_html', 'raw' );
@@ -51,7 +51,7 @@ final class Plugin_Dependencies {
 		\add_action( 'admin_notices', function () use ( $errors ) {
 			$name = h\config_get( 'NAME' );
 			$message = sprintf(
-				__( 'Não foi possível ativar o plugin %s. Siga as instruções abaixo:', 'wp-brazilian-fields-registry' ),
+				__( 'Não foi possível ativar o plugin %s. Siga as instruções abaixo:', 'brazilian-fields-registry' ),
 				$name
 			);
 			$message = "<strong>$message</strong>";

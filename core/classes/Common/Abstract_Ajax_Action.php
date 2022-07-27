@@ -42,7 +42,7 @@ abstract class Abstract_Ajax_Action {
 
 	public function handle_request () {
 		$this->validate_request();
-		$method = $_SERVER['REQUEST_METHOD'];
+		$method = sanitize_text_field($_SERVER['REQUEST_METHOD']);
 		$callback = \strtolower( "handle_$method" );
 		if ( \method_exists( $this,  $callback ) ) {
 			$this->$callback();

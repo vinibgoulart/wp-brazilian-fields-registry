@@ -32,7 +32,7 @@ function include_php_template ( $template_path, $data = [] ) {
 		}
 	} catch ( \Exception $e ) {
 		$message = "Error while rendenring \"$template_path\" template: " . $e->getMessage();
-		echo user_is_admin() ? "<p class='wp-template-error'>$message</p>" : '';
+		echo esc_html(user_is_admin() ? esc_kses("<p class='wp-template-error'>$message</p>", ['p' => ['class'=> []]]) : '');
 		logf( $message );
 	}
 
