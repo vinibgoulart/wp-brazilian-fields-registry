@@ -13,6 +13,7 @@ License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
 
+
 if ( ! defined( 'WPINC' ) ) die();
 
 if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
