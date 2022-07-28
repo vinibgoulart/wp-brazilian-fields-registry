@@ -70,7 +70,7 @@ function ns ( $include ) {
 
 function get_current_url ( $args = false ) {
 	global $wp;
-	$host = $_SERVER['HTTP_HOST'];
+	$host = sanitize_text_field($_SERVER['HTTP_HOST']);
 	$path = $wp->request;
 	$protocol = isset( $_SERVER['HTTPS'] ) && $_SERVER['HTTPS'] === 'on' ? "https" : "http";
 	$url = "$protocol://$host/$path";
