@@ -42,7 +42,7 @@
           <div class="frame-file">
               Arguments
           </div>
-          <div id="frame-code-args-<?=$i?>" class="code-block frame-args">
+          <div id="frame-code-args-<?php $i ?>" class="code-block frame-args">
               <?php echo $frameArgs; ?>
           </div>
         <?php endif ?>

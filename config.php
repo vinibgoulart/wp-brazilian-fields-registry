@@ -10,7 +10,7 @@ return [
 	'ASSETS_DIR' => 'assets',
 	'TEMPLATES_DIR' => 'templates',
 	'LANGUAGES_DIR' => 'languages',
-	'SLUG' => 'wp-brazilian-fields-registry',
+	'SLUG' => 'brazilian-fields-registry',
 	// 'PREFIX' => 'wp_brazilian_fields_registry_',
 
 	// disable the plugin cache while in development or debugging

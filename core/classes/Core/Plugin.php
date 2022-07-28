@@ -59,7 +59,7 @@ final class Plugin {
 
 	public function load_plugin_textdomain () {
 		\load_plugin_textdomain(
-			'wp-brazilian-fields-registry',
+			'brazilian-fields-registry',
 			false,
 			\dirname( \plugin_basename( h\config_get( 'MAIN_FILE' ) ) ) . '/languages/'
 		);

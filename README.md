@@ -11,6 +11,8 @@ With this, is possible make other customizations such different price tables for
 - **Contributors**: [@ViniBGoulart](https://github.com/ViniBGoulart)
 - **Tags**: woocommerce, wordpress, registry, brazil, registro, cpf, cnpj, phone, telefone, inscrição estadual
 - **Require plugins**: [Masks Form Fields](https://br.wordpress.org/plugins/masks-form-fields/)
+- **Tested up to**: 5.2
+- **Stable tag**: 1.2.0
 - **License**: GPLv2 or later
 - **License URI**: https://www.gnu.org/licenses/gpl-2.0.html
 
