@@ -2,7 +2,7 @@
 Contributors: [@ViniBGoulart](https://github.com/ViniBGoulart)
 Tags: woocommerce, wordpress, registry, brazil, registro, cpf, cnpj, phone, telefone, inscrição estadual
 Requires PHP: 7.0^
-Tested up to: 5.2
+Tested up to: 6.0.1
 Stable tag: 1.2.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
