@@ -13,7 +13,7 @@
 		   value="<?php if (!empty($_POST['billing_first_name'])) esc_attr_e($_POST['billing_first_name']); ?>"/>
 </p>
 <p class="form-row">
-	<label for="reg_billing_last_name"><?php _e('Último nome', 'woocommerce'); ?><span
+	<label for="reg_billing_last_name"><?php _e('Sobrenome', 'woocommerce'); ?><span
 			class="required"> *</span></label>
 	<input type="text" class="input-text" name="billing_last_name" id="reg_billing_last_name"
 		   value="<?php if (!empty($_POST['billing_last_name'])) esc_attr_e($_POST['billing_last_name']); ?>"/>
