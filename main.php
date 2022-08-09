@@ -6,7 +6,7 @@ Description: Adiciona os campos <strong>CPF/CNPJ</strong>(junto com tipo de pess
 Author: Vinicius Blazius Goulart
 Author URI: https://github.com/ViniBGoulart
 
-Text Domain: brazilian-fields-registry
+Text Domain: brazilian-fields-registry-wp
 Domain Path: /languages
 
 License: GPLv3
