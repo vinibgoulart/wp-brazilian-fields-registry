@@ -1,5 +1,10 @@
-
 # Brazilian Fields in WordPress Registry
+
+[![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/brazilian-fields-registry-wp?label=Plugin%20Version&logo=wordpress&style=flat-square)](https://wordpress.org/plugins/brazilian-fields-registry-wp/)
+[![WordPress Plugin Required PHP Version](https://img.shields.io/wordpress/plugin/required-php/brazilian-fields-registry-wp?label=PHP%20Required&logo=php&logoColor=white&style=flat-square)](https://wordpress.org/plugins/brazilian-fields-registry-wp/)
+[![WordPress Plugin Rating](https://img.shields.io/wordpress/plugin/stars/brazilian-fields-registry-wp?label=Plugin%20Rating&logo=wordpress&style=flat-square)](https://wordpress.org/support/plugin/brazilian-fields-registry-wp/reviews/)
+[![WordPress Plugin Downloads](https://img.shields.io/wordpress/plugin/dt/brazilian-fields-registry-wp.svg?label=Downloads&logo=wordpress&style=flat-square)](https://wordpress.org/plugins/brazilian-fields-registry-wp/advanced/)
+[![License](https://img.shields.io/badge/LICENSE-GPLv3-blue?style=flat-square)](/LICENSE)
 
 A wordpress plugin that can be used for customize your website.
 
